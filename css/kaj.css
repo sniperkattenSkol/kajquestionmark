@@ -1,5 +1,16 @@
 body,html {
 	height: 100%;
+	font-family: 'Overpass Mono', monospace;
+}
+
+h1,h2,h3,p,span {
+	text-align: center;
+	margin-left: 500px;
+	color: white;
+}
+
+h1,h2,h3{
+	font-size: 80px;
 }
 
 #sidebar-wrap {
@@ -46,12 +57,19 @@ body,html {
 	opacity: 0.2;
 	
 }
-
-h2,p  {
+.spanalign {
+	display: block;
+	margin-left: -40px;
 	text-align: center;
-	margin-left: 500px;
-	color: white;
-	
+}
+
+.bigtext {
+	font-size: 50px;
+}
+
+.smalltext {
+	margin:auto;
+	font-size: 40px;
 }
 
 #first-row {
