@@ -10,7 +10,7 @@ h1,h2,h3,p,span {
 }
 
 h1,h2,h3{
-	font-size: 80px;
+	font-size: 60px;
 }
 
 #sidebar-wrap {
@@ -20,18 +20,14 @@ h1,h2,h3{
 	height: 100%;
 	overflow-y: hidden;
 	background: #000;
-	
-
 }
 
 #page-wrap{
 	width: 100%;
 	position: absolute;
-	
 }
 
 .sidebar-nav{
-
 	list-style: none;
 	margin:auto;
 }
@@ -39,7 +35,7 @@ h1,h2,h3{
 .sidebar-nav li {
 	text-indent: 20px;
 	line-height: 40px;
-	padding-top: 50px;
+	padding-top: 100px;
 
 }
 
@@ -49,12 +45,15 @@ h1,h2,h3{
 	text-align: center;
 	text-decoration: none;
 	color: white;
+	font-size: 30px;
+	transition: 0.5s;
 	
 }
 
 .sidebar-nav li a:hover{
 	background: black;
 	opacity: 0.2;
+	transition: 0.5s;
 	
 }
 .spanalign {
@@ -85,5 +84,15 @@ h1,h2,h3{
 #third-row{
 	height: 1000px;
 	background-color: #250023; /* lila färg kod*/
+}
+
+#checkmark{
+	color:green;
+	font-size: 30px;
+}
+
+#cross{
+	color: red;
+	font-size: 30px;
 }
 
