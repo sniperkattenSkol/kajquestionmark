@@ -99,17 +99,24 @@ h1,h2,h3{
 
 
 
-#bildwrap{
+.bildwrap{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-left: 500px;
-	border-width: 10px;
-	border-style: hidden;
+
 }
 
-#bildwrap div img {
-	width: 200px;
-	height: 200px;
+.bildwrap div img {
+	padding: 25px;
+	width: 250px;
+	height: 250px;
+	transition: 1s;
 
+}
+
+.bildwrap div img:hover {
+	
+	transform:scale(1.5);
+	transition: 1s;
 }
