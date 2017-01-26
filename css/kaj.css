@@ -1,6 +1,7 @@
 body,html {
 	height: 100%;
 	font-family: 'Overpass Mono', monospace;
+	overflow: hidden;
 }
 
 h1,h2,h3,p,span {
@@ -96,3 +97,19 @@ h1,h2,h3{
 	font-size: 30px;
 }
 
+
+
+#bildwrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 500px;
+	border-width: 10px;
+	border-style: hidden;
+}
+
+#bildwrap div img {
+	width: 200px;
+	height: 200px;
+
+}
