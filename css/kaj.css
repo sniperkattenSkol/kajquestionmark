@@ -110,6 +110,7 @@ h1,h2,h3{
 }
 
 .bildwrap div img {
+	padding: 20px;
 	width: 250px;
 	height: 250px;
 	transition: 1s;
@@ -120,13 +121,16 @@ h1,h2,h3{
 	transition: 1s;
 }
 
-.bildwrapwrap:hover .bildhover {
-	transform:scale(0.5);
+.bildhover img{
+	transform:scale(0.1);
 	transition: 1s;
 	overflow: hidden;
 }
- .bildwrapwrap .bildhover:hover{
-	transform:scale(1.5);
+ .bildwrapwrap img:hover{
+	transform:scale(2.3);
 	transition: 1s; 
 	transform-origin: center center;
-}
+	filter:brightness(150%);
+	filter:contrast(5000%);
+
+
