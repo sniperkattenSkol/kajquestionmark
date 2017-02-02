@@ -1,6 +1,6 @@
 body,html {
 	height: 100%;
-	font-family: 'Overpass Mono', monospace;
+	font-family: 'Overpass Mono', monospace; 
 	overflow: hidden;
 }
 
@@ -12,6 +12,10 @@ h1,h2,h3,p,span {
 
 h1,h2,h3{
 	font-size: 60px;
+}
+/* Keep 20px font size*/
+p {
+	font-size: 20px; 
 }
 
 
