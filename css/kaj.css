@@ -131,6 +131,6 @@ h1,h2,h3{
 	transition: 1s; 
 	transform-origin: center center;
 	filter:brightness(150%);
-	filter:contrast(5000%);
+	filter:contrast(300%);
 
 
