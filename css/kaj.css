@@ -102,39 +102,11 @@ p {
 	font-size: 30px;
 }
 
-
-
-.bildwrap{
-	padding-top: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.carowrap img{
 	margin-left: 500px;
-	transition: 1s;
 }
 
-.bildwrap div img {
-	padding: 20px;
-	width: 250px;
-	height: 250px;
-	transition: 1s;
-
+img {
+	width: 300px;
+	height: 300px;
 }
-
-.bildwrapwrap{
-	transition: 1s;
-}
-
-.bildhover img{
-	transform:scale(0.1);
-	transition: 1s;
-	overflow: hidden;
-}
- .bildwrapwrap img:hover{
-	transform:scale(2.3);
-	transition: 1s; 
-	transform-origin: center center;
-	filter:brightness(150%);
-	filter:contrast(300%);
-
-
