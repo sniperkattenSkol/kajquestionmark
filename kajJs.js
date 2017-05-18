@@ -1,8 +1,6 @@
-setInterval(function(){spinss();},10000);
-	var x = 1;
-	var two = 2;
+setInterval(function(){spinss();},1000);
+	var x = 0;
 	function spinss() {
-		x = x + two;
-		
+		x++;
 		document.getElementById("dspnumb").innerHTML = x;
 	}
