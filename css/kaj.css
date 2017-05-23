@@ -53,14 +53,13 @@ p {
 	text-decoration: none;
 	color: white;
 	font-size: 30px;
-	opacity: 0.8;
 	transition: 0.2s;
 	
 }
 
 .sidebar-nav li a:hover{
 	background: black;
-	opacity: 1;
+	text-shadow: 1px 1px white;
 	
 }
 .spanalign {
