@@ -146,10 +146,24 @@ img {
     background-image: none
 }
 
-
 #bengtbild{
 
 	margin-left: 700px;
+}
+
+.fidgetspinner{
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	animation: dankspinn 1s linear infinite;
+}
+
+@keyframes dankspinn {
+	0% {
+		transform: rotate(0deg); 
+	} 100% {
+		transform: rotate(360deg);
+	}
 }
 
 /*Jonas Anime */ 
